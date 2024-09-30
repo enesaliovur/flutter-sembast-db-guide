@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:equatable/equatable.dart';
 
 class FoodData extends Equatable {
-  final int id;
+  final int? id;
   final String name;
   final bool isLiked;
 
   const FoodData({
-    required this.id,
+    this.id,
     required this.name,
     required this.isLiked,
   });

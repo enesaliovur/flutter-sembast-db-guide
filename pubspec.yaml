@@ -1,6 +1,6 @@
 name: how_to_use_sembast_db
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   bloc: ^8.1.4
+  dartz: ^0.10.1
   equatable: ^2.0.5
   flutter:
     sdk: flutter
